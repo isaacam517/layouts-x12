@@ -5,7 +5,9 @@ img {
 
 .btn-access {
     width: 30vw;
+    min-width: 30vw;
     height: 80px;
+    font-size: 1.3em;
 }
 
 .bg-adm {
@@ -25,5 +27,5 @@ img {
     margin: auto;
 }
 .top-area {
-    font-size: x-large;
+    font-size: 2rem;
 }
