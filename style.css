@@ -12,7 +12,6 @@ img {
     background-color: #f7d1d6;
     width: 80vw;
     margin: auto;
-
 }
 
 .bg-operador {
@@ -24,4 +23,7 @@ img {
 .btn-enviar {
     height: 80px;
     margin: auto;
+}
+.top-area {
+    font-size: x-large;
 }
