@@ -2,3 +2,26 @@ img {
     width: 100px;
     padding-top: 15px;
 }
+
+.btn-access {
+    width: 30vw;
+    height: 80px;
+}
+
+.bg-adm {
+    background-color: #f7d1d6;
+    width: 80vw;
+    margin: auto;
+
+}
+
+.bg-operador {
+    background-color:#F5A9BC;
+    width: 80vw;
+    margin: auto;    
+}
+
+.btn-enviar {
+    height: 80px;
+    margin: auto;
+}
