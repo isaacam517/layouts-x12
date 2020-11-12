@@ -1,31 +1,101 @@
+body{
+    background-color: #2a3950;
+    color:#FE9677;
+    font-family: 'Quicksand', sans-serif;
+}
+a {
+    color: wheat;
+}
+a:hover {
+    color: rgb(51, 255, 0);
+    text-decoration: none;
+}
+.navbar {
+    background-color: #41436A;
+    }
 img {
     width: 100px;
     padding-top: 15px;
 }
 
 .btn-access {
-    width: 30vw;
-    min-width: 30vw;
+    background-color: #984063;
+    color: wheat;
+    width: 20vw;
+    min-width: 20vw;
     height: 80px;
     font-size: 1.3em;
+    margin-bottom: 30px;
+}
+.btn-access:hover {
+    background-color: #f64668;
 }
 
 .bg-adm {
-    background-color: #f7d1d6;
-    width: 80vw;
+    background-color: #41436A;
+    width: 100%;
     margin: auto;
 }
 
 .bg-operador {
-    background-color:#F5A9BC;
-    width: 80vw;
-    margin: auto;    
+    background-color: #41436A;
+    width: 100%;
+    margin: auto;
 }
 
 .btn-enviar {
-    height: 80px;
+    height: 50px;
     margin: auto;
+    background-color: #f64668;
 }
 .top-area {
-    font-size: 2rem;
+    font-size: 1.2rem;
+}
+.dados-adm {
+    width: 50%;
+
+}
+.dados-ope {
+    width: 50%;
+
+}
+.areas {
+    display: flex;
+    min-height: 390px;
+}
+
+footer {
+    background-color: #41436A;
+    width: 100vw;
+    padding-bottom: 60px;
+    text-align: center;
+    color:#FE9677;
+}
+@media (max-width: 500px)
+{
+    
+    .btn-access {
+        width: 50vw;
+        min-width: 20vw;
+        height: 80px;
+        font-size: 1.3em;
+        margin-bottom: 65px;
+    }
+    .areas {
+        flex-direction: column;
+        width: 100vw;
+    }
+    .dados-adm {
+        width: 90vw;
+        margin: 0;
+        padding: 0;    
+    }
+    .dados-ope {
+        
+        width: 90vw;
+        margin: 0;
+        padding: 0;
+
+    }
+    
 }
